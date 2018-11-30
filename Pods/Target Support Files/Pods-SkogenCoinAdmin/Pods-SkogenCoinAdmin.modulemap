@@ -1,0 +1,6 @@
+framework module Pods_SkogenCoinAdmin {
+  umbrella header "Pods-SkogenCoinAdmin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,20 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		38FB497421AFFB80002FB70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB497321AFFB80002FB70B /* AppDelegate.swift */; };
-		38FB497621AFFB80002FB70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB497521AFFB80002FB70B /* ViewController.swift */; };
+		38FB497621AFFB80002FB70B /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB497521AFFB80002FB70B /* OrdersViewController.swift */; };
 		38FB497921AFFB80002FB70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FB497721AFFB80002FB70B /* Main.storyboard */; };
 		38FB497B21AFFB82002FB70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FB497A21AFFB82002FB70B /* Assets.xcassets */; };
 		38FB497E21AFFB82002FB70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FB497C21AFFB82002FB70B /* LaunchScreen.storyboard */; };
+		38FB498721B0096E002FB70B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB498621B0096E002FB70B /* APIClient.swift */; };
+		38FB498B21B00A93002FB70B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB498921B00A93002FB70B /* LoginModel.swift */; };
+		38FB498D21B00AD4002FB70B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB498C21B00AD3002FB70B /* NetworkManager.swift */; };
+		38FB498F21B00B1F002FB70B /* ProfileDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB498E21B00B1F002FB70B /* ProfileDatabaseManager.swift */; };
+		38FB499121B00B7C002FB70B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499021B00B7B002FB70B /* Profile.swift */; };
+		38FB499421B00C1C002FB70B /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499221B00C1C002FB70B /* CodeViewController.swift */; };
+		38FB499521B00C1C002FB70B /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499321B00C1C002FB70B /* PhoneViewController.swift */; };
+		38FB499721B00C26002FB70B /* PhoneLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499621B00C25002FB70B /* PhoneLayoutService.swift */; };
+		38FB499921B00C2B002FB70B /* CodeLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499821B00C2A002FB70B /* CodeLayoutService.swift */; };
+		38FB499B21B01033002FB70B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499A21B01033002FB70B /* LoadingView.swift */; };
+		38FB499D21B01053002FB70B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB499C21B01053002FB70B /* UIColor.swift */; };
+		38FB49A621B13FEB002FB70B /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB49A521B13FEB002FB70B /* UINavigationController.swift */; };
+		38FB49A821B15B85002FB70B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FB49A721B15B85002FB70B /* Order.swift */; };
+		AFD33CA77348A17F922AC02B /* Pods_SkogenCoinAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E98FE5097C0253FDB629D5 /* Pods_SkogenCoinAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38FB497021AFFB80002FB70B /* SkogenCoinAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkogenCoinAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FB497321AFFB80002FB70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38FB497521AFFB80002FB70B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38FB497521AFFB80002FB70B /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		38FB497821AFFB80002FB70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38FB497A21AFFB82002FB70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38FB497D21AFFB82002FB70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38FB497F21AFFB82002FB70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FB498521AFFBA1002FB70B /* SkogenCoinAdmin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkogenCoinAdmin.entitlements; sourceTree = "<group>"; };
+		38FB498621B0096E002FB70B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		38FB498921B00A93002FB70B /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		38FB498C21B00AD3002FB70B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		38FB498E21B00B1F002FB70B /* ProfileDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDatabaseManager.swift; sourceTree = "<group>"; };
+		38FB499021B00B7B002FB70B /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		38FB499221B00C1C002FB70B /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		38FB499321B00C1C002FB70B /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		38FB499621B00C25002FB70B /* PhoneLayoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneLayoutService.swift; sourceTree = "<group>"; };
+		38FB499821B00C2A002FB70B /* CodeLayoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeLayoutService.swift; sourceTree = "<group>"; };
+		38FB499A21B01033002FB70B /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		38FB499C21B01053002FB70B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		38FB49A521B13FEB002FB70B /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		38FB49A721B15B85002FB70B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D2E98FE5097C0253FDB629D5 /* Pods_SkogenCoinAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkogenCoinAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31844B3D92E76B494A12BF2 /* Pods-SkogenCoinAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkogenCoinAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkogenCoinAdmin/Pods-SkogenCoinAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		E95998BE6F7D89E734533CB8 /* Pods-SkogenCoinAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkogenCoinAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkogenCoinAdmin/Pods-SkogenCoinAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD33CA77348A17F922AC02B /* Pods_SkogenCoinAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ADD06B38C3B4D2CDC4CDC05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E98FE5097C0253FDB629D5 /* Pods_SkogenCoinAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267CD62BA88859A529DA8C07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31844B3D92E76B494A12BF2 /* Pods-SkogenCoinAdmin.debug.xcconfig */,
+				E95998BE6F7D89E734533CB8 /* Pods-SkogenCoinAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		38FB496721AFFB80002FB70B = {
 			isa = PBXGroup;
 			children = (
 				38FB497221AFFB80002FB70B /* SkogenCoinAdmin */,
 				38FB497121AFFB80002FB70B /* Products */,
+				267CD62BA88859A529DA8C07 /* Pods */,
+				0ADD06B38C3B4D2CDC4CDC05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,68 @@
 		38FB497221AFFB80002FB70B /* SkogenCoinAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				38FB498521AFFBA1002FB70B /* SkogenCoinAdmin.entitlements */,
 				38FB497321AFFB80002FB70B /* AppDelegate.swift */,
-				38FB497521AFFB80002FB70B /* ViewController.swift */,
+				38FB497521AFFB80002FB70B /* OrdersViewController.swift */,
+				38FB49A421B13EEE002FB70B /* API */,
 				38FB497721AFFB80002FB70B /* Main.storyboard */,
 				38FB497A21AFFB82002FB70B /* Assets.xcassets */,
 				38FB497C21AFFB82002FB70B /* LaunchScreen.storyboard */,
 				38FB497F21AFFB82002FB70B /* Info.plist */,
+				38FB49A321B13EE2002FB70B /* Database */,
+				38FB49A221B13ED1002FB70B /* Code */,
+				38FB49A121B13EC7002FB70B /* Phone */,
+				38FB49A021B13E25002FB70B /* Helpers */,
 			);
 			path = SkogenCoinAdmin;
+			sourceTree = "<group>";
+		};
+		38FB49A021B13E25002FB70B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				38FB499A21B01033002FB70B /* LoadingView.swift */,
+				38FB499C21B01053002FB70B /* UIColor.swift */,
+				38FB49A521B13FEB002FB70B /* UINavigationController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		38FB49A121B13EC7002FB70B /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				38FB499321B00C1C002FB70B /* PhoneViewController.swift */,
+				38FB499621B00C25002FB70B /* PhoneLayoutService.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		38FB49A221B13ED1002FB70B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				38FB499221B00C1C002FB70B /* CodeViewController.swift */,
+				38FB499821B00C2A002FB70B /* CodeLayoutService.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		38FB49A321B13EE2002FB70B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				38FB498E21B00B1F002FB70B /* ProfileDatabaseManager.swift */,
+				38FB499021B00B7B002FB70B /* Profile.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		38FB49A421B13EEE002FB70B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				38FB498621B0096E002FB70B /* APIClient.swift */,
+				38FB498921B00A93002FB70B /* LoginModel.swift */,
+				38FB498C21B00AD3002FB70B /* NetworkManager.swift */,
+				38FB49A721B15B85002FB70B /* Order.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38FB498221AFFB82002FB70B /* Build configuration list for PBXNativeTarget "SkogenCoinAdmin" */;
 			buildPhases = (
+				517E9683173213CDB0CF6AF5 /* [CP] Check Pods Manifest.lock */,
 				38FB496C21AFFB80002FB70B /* Sources */,
 				38FB496D21AFFB80002FB70B /* Frameworks */,
 				38FB496E21AFFB80002FB70B /* Resources */,
+				B211E4647AAF08C3A876F66E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +203,11 @@
 				TargetAttributes = {
 					38FB496F21AFFB80002FB70B = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +242,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		517E9683173213CDB0CF6AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkogenCoinAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B211E4647AAF08C3A876F66E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkogenCoinAdmin/Pods-SkogenCoinAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PinCodeTextField/PinCodeTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinCodeTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkogenCoinAdmin/Pods-SkogenCoinAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38FB496C21AFFB80002FB70B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38FB497621AFFB80002FB70B /* ViewController.swift in Sources */,
+				38FB499921B00C2B002FB70B /* CodeLayoutService.swift in Sources */,
+				38FB499721B00C26002FB70B /* PhoneLayoutService.swift in Sources */,
+				38FB498D21B00AD4002FB70B /* NetworkManager.swift in Sources */,
+				38FB499521B00C1C002FB70B /* PhoneViewController.swift in Sources */,
+				38FB499121B00B7C002FB70B /* Profile.swift in Sources */,
+				38FB499B21B01033002FB70B /* LoadingView.swift in Sources */,
+				38FB498B21B00A93002FB70B /* LoginModel.swift in Sources */,
+				38FB497621AFFB80002FB70B /* OrdersViewController.swift in Sources */,
 				38FB497421AFFB80002FB70B /* AppDelegate.swift in Sources */,
+				38FB499D21B01053002FB70B /* UIColor.swift in Sources */,
+				38FB498721B0096E002FB70B /* APIClient.swift in Sources */,
+				38FB499421B00C1C002FB70B /* CodeViewController.swift in Sources */,
+				38FB49A821B15B85002FB70B /* Order.swift in Sources */,
+				38FB498F21B00B1F002FB70B /* ProfileDatabaseManager.swift in Sources */,
+				38FB49A621B13FEB002FB70B /* UINavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +460,20 @@
 		};
 		38FB498321AFFB82002FB70B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31844B3D92E76B494A12BF2 /* Pods-SkogenCoinAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SkogenCoinAdmin/SkogenCoinAdmin.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S5J4XGLBHR;
 				INFOPLIST_FILE = SkogenCoinAdmin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SkogenCoin.admin.SkogenCoinAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SkogenCoin.admin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SkogenCoin Admin Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +481,20 @@
 		};
 		38FB498421AFFB82002FB70B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95998BE6F7D89E734533CB8 /* Pods-SkogenCoinAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SkogenCoinAdmin/SkogenCoinAdmin.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S5J4XGLBHR;
 				INFOPLIST_FILE = SkogenCoinAdmin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SkogenCoin.admin.SkogenCoinAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SkogenCoin.admin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SkogenCoin Admin Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
