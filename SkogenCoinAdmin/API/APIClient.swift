@@ -8,6 +8,22 @@
 
 import Foundation
 import Alamofire
+/*
+ 
+ Admin
+ 
+ {
+ _id: '5bffd69d2597825598421ee8',
+ name: 'Admin',
+ surname: 'Admin\s surname',
+ email: 'admin@gmail.com',
+ phone: '+375291488342',
+ stripeId: "someId",
+ photo: "/static/images",
+ password: '7102',
+ }
+ 
+ */
 
 class APIClient {
     
